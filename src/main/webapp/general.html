@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="general.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="Scripts/Scripts.js"></script>
+</head>
+<body>
+  <br><br><br><br><br><br><br><br><br><br><br>
+  <div class="container-fluid">
+    <h1>General</h1><br><br>
+    <div class="row">
+        <div class="col-md-6 col-sm-12" >
+            <div class="form-check">
+            
+                <input type="radio" class="form-check-input" id="psoe" name="optradio" value="psoe"><b>PSOE</b>
+                <label class="form-check-label" for="radio1"></label>
+              </div>
+              <div class="form-check">
+                <input type="radio" class="form-check-input" id="pp" name="optradio" value="pp"><b>PP</b>
+                <label class="form-check-label" for="radio2"></label>
+              </div>
+              <div class="form-check">
+                <input type="radio" class="form-check-input" id="podemos" name="optradio" value="podemos"><b>Podemos</b>
+                <label class="form-check-label" for="radio3"></label>
+              </div>
+              <div class="form-check">
+                <input type="radio" class="form-check-input" id="vox" name="optradio" value="vox"><b>VOX</b>
+                <label class="form-check-label" for="radio4"></label>
+              </div>
+        </div>
+        <div class="col-md-6 col-sm-12" >
+            <div class="form-check">
+                <input type="radio" class="form-check-input" id="otros" name="optradio" value="otros"><b>Otros</b>
+                <label class="form-check-label" for="radio5"></label>
+              </div>
+        </div>
+        <div class="col-12">
+            <button onclick="votarGeneral()">Enviar</button> 
+        </div>
+
+    </div>
+
+</div>
+  </body>
+  
+</html>
